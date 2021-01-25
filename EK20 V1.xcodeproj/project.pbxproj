@@ -3,10 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88FCC360FDBA88E46C5B2F75 /* Pods_EK20_V1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 886CB9019780D362DB4B4FF7 /* Pods_EK20_V1.framework */; };
+		AE0E549624B376EF0086C131 /* Temp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0E549524B376EF0086C131 /* Temp.swift */; };
+		AE451F282466DBAD009E7BD2 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE451F272466DBAD009E7BD2 /* LogInViewController.swift */; };
+		AE451F2A2466DD94009E7BD2 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE451F292466DD94009E7BD2 /* RegisterViewController.swift */; };
+		AE4BFC7E245C8F73004557E6 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4BFC7D245C8F73004557E6 /* FormViewController.swift */; };
+		AE5482C5247EAE12003471CB /* VisualizerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5482C4247EAE12003471CB /* VisualizerController.swift */; };
+		AE554FDD2592381300D0B536 /* FixtureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE554FDC2592381300D0B536 /* FixtureViewController.swift */; };
+		AE5F069C25B7085D0048E22B /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5F069B25B7085D0048E22B /* TestViewController.swift */; };
+		AE66847425111591008A8D45 /* Prono.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE66847325111591008A8D45 /* Prono.swift */; };
+		AE66949A25B5AE8D001955C5 /* PlayedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE66949925B5AE8D001955C5 /* PlayedViewController.swift */; };
+		AE89C85825A47DE800B38B84 /* Model1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE89C85625A47DE800B38B84 /* Model1.xcdatamodeld */; };
+		AE8F5704245C8A23004833D9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE8F5703245C8A23004833D9 /* GoogleService-Info.plist */; };
+		AED2B20C2549962E008F32F7 /* Temp1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED2B20B2549962E008F32F7 /* Temp1.swift */; };
+		AEDE0E23256A9827003DD454 /* JsonData1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDE0E22256A9827003DD454 /* JsonData1.swift */; };
 		AEEE254B2459EC740008628F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE254A2459EC740008628F /* AppDelegate.swift */; };
 		AEEE254D2459EC740008628F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE254C2459EC740008628F /* SceneDelegate.swift */; };
 		AEEE254F2459EC740008628F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE254E2459EC740008628F /* ViewController.swift */; };
@@ -17,6 +31,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1053A3506FC778A2C8D121AB /* Pods-EK20 V1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EK20 V1.release.xcconfig"; path = "Target Support Files/Pods-EK20 V1/Pods-EK20 V1.release.xcconfig"; sourceTree = "<group>"; };
+		886CB9019780D362DB4B4FF7 /* Pods_EK20_V1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EK20_V1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE0E549524B376EF0086C131 /* Temp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temp.swift; sourceTree = "<group>"; };
+		AE451F272466DBAD009E7BD2 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		AE451F292466DD94009E7BD2 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		AE4BFC7D245C8F73004557E6 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		AE5482C4247EAE12003471CB /* VisualizerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualizerController.swift; sourceTree = "<group>"; };
+		AE554FDC2592381300D0B536 /* FixtureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixtureViewController.swift; sourceTree = "<group>"; };
+		AE5F069B25B7085D0048E22B /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		AE66847325111591008A8D45 /* Prono.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prono.swift; sourceTree = "<group>"; };
+		AE66949925B5AE8D001955C5 /* PlayedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayedViewController.swift; sourceTree = "<group>"; };
+		AE89C85725A47DE800B38B84 /* Model1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model1.xcdatamodel; sourceTree = "<group>"; };
+		AE8F5703245C8A23004833D9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AED2B20B2549962E008F32F7 /* Temp1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temp1.swift; sourceTree = "<group>"; };
+		AEDE0E22256A9827003DD454 /* JsonData1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonData1.swift; sourceTree = "<group>"; };
 		AEEE25472459EC740008628F /* EK20 V1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EK20 V1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEEE254A2459EC740008628F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEEE254C2459EC740008628F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +55,7 @@
 		AEEE25562459EC770008628F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEEE25592459EC770008628F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEEE255B2459EC770008628F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD95359F208A6CE004815B87 /* Pods-EK20 V1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EK20 V1.debug.xcconfig"; path = "Target Support Files/Pods-EK20 V1/Pods-EK20 V1.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88FCC360FDBA88E46C5B2F75 /* Pods_EK20_V1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +75,8 @@
 			children = (
 				AEEE25492459EC740008628F /* EK20 V1 */,
 				AEEE25482459EC740008628F /* Products */,
+				CBF632481F999CA354AE762D /* Pods */,
+				D3C68CE9839C8E3040D0EFD5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,12 +95,42 @@
 				AEEE254C2459EC740008628F /* SceneDelegate.swift */,
 				AEEE254E2459EC740008628F /* ViewController.swift */,
 				AEEE25502459EC740008628F /* Main.storyboard */,
+				AE5F069B25B7085D0048E22B /* TestViewController.swift */,
+				AE66949925B5AE8D001955C5 /* PlayedViewController.swift */,
 				AEEE25562459EC770008628F /* Assets.xcassets */,
 				AEEE25582459EC770008628F /* LaunchScreen.storyboard */,
 				AEEE255B2459EC770008628F /* Info.plist */,
+				AE8F5703245C8A23004833D9 /* GoogleService-Info.plist */,
 				AEEE25532459EC740008628F /* EK20_V1.xcdatamodeld */,
+				AE4BFC7D245C8F73004557E6 /* FormViewController.swift */,
+				AE451F272466DBAD009E7BD2 /* LogInViewController.swift */,
+				AE89C85625A47DE800B38B84 /* Model1.xcdatamodeld */,
+				AE451F292466DD94009E7BD2 /* RegisterViewController.swift */,
+				AE5482C4247EAE12003471CB /* VisualizerController.swift */,
+				AE0E549524B376EF0086C131 /* Temp.swift */,
+				AE66847325111591008A8D45 /* Prono.swift */,
+				AEDE0E22256A9827003DD454 /* JsonData1.swift */,
+				AED2B20B2549962E008F32F7 /* Temp1.swift */,
+				AE554FDC2592381300D0B536 /* FixtureViewController.swift */,
 			);
 			path = "EK20 V1";
+			sourceTree = "<group>";
+		};
+		CBF632481F999CA354AE762D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD95359F208A6CE004815B87 /* Pods-EK20 V1.debug.xcconfig */,
+				1053A3506FC778A2C8D121AB /* Pods-EK20 V1.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D3C68CE9839C8E3040D0EFD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				886CB9019780D362DB4B4FF7 /* Pods_EK20_V1.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEEE255E2459EC770008628F /* Build configuration list for PBXNativeTarget "EK20 V1" */;
 			buildPhases = (
+				BA563CBCA2CB97A32A7091F2 /* [CP] Check Pods Manifest.lock */,
 				AEEE25432459EC740008628F /* Sources */,
 				AEEE25442459EC740008628F /* Frameworks */,
 				AEEE25452459EC740008628F /* Resources */,
+				A885CEAC767E61C653710112 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,10 +196,53 @@
 				AEEE255A2459EC770008628F /* LaunchScreen.storyboard in Resources */,
 				AEEE25572459EC770008628F /* Assets.xcassets in Resources */,
 				AEEE25522459EC740008628F /* Main.storyboard in Resources */,
+				AE8F5704245C8A23004833D9 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A885CEAC767E61C653710112 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EK20 V1/Pods-EK20 V1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EK20 V1/Pods-EK20 V1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EK20 V1/Pods-EK20 V1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA563CBCA2CB97A32A7091F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EK20 V1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AEEE25432459EC740008628F /* Sources */ = {
@@ -143,8 +251,20 @@
 			files = (
 				AEEE25552459EC740008628F /* EK20_V1.xcdatamodeld in Sources */,
 				AEEE254F2459EC740008628F /* ViewController.swift in Sources */,
+				AE5F069C25B7085D0048E22B /* TestViewController.swift in Sources */,
+				AE0E549624B376EF0086C131 /* Temp.swift in Sources */,
+				AE451F2A2466DD94009E7BD2 /* RegisterViewController.swift in Sources */,
+				AE451F282466DBAD009E7BD2 /* LogInViewController.swift in Sources */,
 				AEEE254B2459EC740008628F /* AppDelegate.swift in Sources */,
+				AED2B20C2549962E008F32F7 /* Temp1.swift in Sources */,
+				AE66847425111591008A8D45 /* Prono.swift in Sources */,
+				AE554FDD2592381300D0B536 /* FixtureViewController.swift in Sources */,
+				AE66949A25B5AE8D001955C5 /* PlayedViewController.swift in Sources */,
+				AE4BFC7E245C8F73004557E6 /* FormViewController.swift in Sources */,
 				AEEE254D2459EC740008628F /* SceneDelegate.swift in Sources */,
+				AE89C85825A47DE800B38B84 /* Model1.xcdatamodeld in Sources */,
+				AE5482C5247EAE12003471CB /* VisualizerController.swift in Sources */,
+				AEDE0E23256A9827003DD454 /* JsonData1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +406,7 @@
 		};
 		AEEE255F2459EC770008628F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD95359F208A6CE004815B87 /* Pods-EK20 V1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +425,7 @@
 		};
 		AEEE25602459EC770008628F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1053A3506FC778A2C8D121AB /* Pods-EK20 V1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -344,6 +466,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		AE89C85625A47DE800B38B84 /* Model1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AE89C85725A47DE800B38B84 /* Model1.xcdatamodel */,
+			);
+			currentVersion = AE89C85725A47DE800B38B84 /* Model1.xcdatamodel */;
+			path = Model1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		AEEE25532459EC740008628F /* EK20_V1.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
