@@ -62,6 +62,8 @@ class TestViewController: UIViewController {
             
             let label2 = UILabel(frame: CGRect(x: br * 0.50, y: ho * 0.20 + ho * 0.05 * CGFloat(i), width: br * 0.20, height: ho * 0.05))
             
+            //Test
+            
             label1.textAlignment = NSTextAlignment.left
             label1.text = PronosB[i][0].user
             label1.font.withSize(12)
